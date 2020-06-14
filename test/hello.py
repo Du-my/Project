@@ -35,3 +35,4 @@
 #小数（浮点数）只取整数
 # print(int(3.14))
 # print(round(3.1415926,2))
+# print(type(10))
