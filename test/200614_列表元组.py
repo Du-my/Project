@@ -38,7 +38,7 @@ print(b)
 
 list[-1][1]=66
 print(list)
-a = "'what's your'"
+a = "'what's your name'"
 print(a)
 a = (3,4)
 print(a)
