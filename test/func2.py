@@ -45,3 +45,27 @@
 # info = ([100,200],)
 # info[0][0] = 30
 # print(info)
+#     print('x  不在这个字符串里面')
+
+#    endswith  检查字符串是否以指定的字符串结尾  ----bool类型
+# print(info.endswith('a'))
+
+#   find 返回指定的子字符串（一个元素或多个连续元素）在字符串中出现的位置
+#1.不清楚结果  2.能找到，找不到。。
+#  返回第一个找到刚元素出现的下标
+print(info.find('x'))
+if info.find('a')!=-1:
+    print('刚元素存在')#可以设置检查点
+else:
+    print('不存在该元素')
+#  index ---求元素下标，这个元素一定要存在，否则报错
+print(info.index('a'))
+print(info.index('b'))
+print(info.index('c'))
+print(info.index('e'))
+print(info.index('f'))
+print(info.index('f'))
+print(info.index('f'))
+print(info.index('f'))
+print(info.index('f'))
+print(info.index('f'))
