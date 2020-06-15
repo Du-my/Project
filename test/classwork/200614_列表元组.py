@@ -43,5 +43,5 @@ print(a)
 a = (3,4)
 print(a)
 print('修改')
-print('修改')
+
 
