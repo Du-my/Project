@@ -1,7 +1,7 @@
 #不停止一直循环输入
 while True:
     # 输入语句
-    tel=input("请输入手机号：(输入q退出):",)
+    tel=input("请输入手机号：(输入q退出):")
     if tel!="q":#判断是否为q
         if tel.isdigit():#此方法判断该字符串是否为数字组成
             if len(tel)==11:#判断字符串长度是否为11位
