@@ -20,3 +20,4 @@ while i<len(nameList):
 #  for 循环
 for name in nameList:
     print(name)
+print('新增')
