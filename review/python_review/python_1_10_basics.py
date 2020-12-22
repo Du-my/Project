@@ -1,6 +1,6 @@
-import  math
-print(math.pi)
-
+# import  math
+# print(math.pi)
+'''
 #字符串
 print('He said: "Nice to see you!"')
 #切片
@@ -30,12 +30,59 @@ a = webdriver.Chrome()
 a.get("https://www.baidu.com")
 b = a.find_element_by_id('kw')
 print(b.is_displayed())
-
+'''
 #条件判断
 
+#深拷贝和浅拷贝
+'''
+list3 = [11,[22,33],44,55]
+list4 = list3[:]   #切片就是一种浅拷贝
+print('原列表'+str(list3))
+list3.append(77)
+print('变更后的list3'+str(list3))
+print('没有变更的list4'+str(list4))
 
+import  copy
+list4= copy.copy(list3)#浅拷贝
+list4 = copy.deepcopy(list3)#深拷贝
+'''
+#条件判断
+'''
+# a = 1
+# if a>9:
+#     print('不错')
+# else:
+#     print('好吧')
 
+a = int(input('请输入一个数字:'))
+if a>=90:
+    pass
+elif a>=80:
+    print('还行')
+elif a>=70:
+    print('不错')
+else:
+    print('最后')
+'''
 
+#初识函数
+'''
+def sumdata(a,b):
+    print(a+b)
+    return a+b
+sumdata(100,200)
+print(sumdata(100,200)**2)
 
+a = "临兵斗者皆阵列前行"
+print(list(a))
+'''
+#对象的方法
+'''
+#strip()去掉前后空格
+print('****************12月22日*******'.strip('*'))
+#count()统计某个字符出现在字符串的数量
+print('****************12月22日*******'.count('*'))
+'''
 
+#字符串的格式化和用户输入
 
