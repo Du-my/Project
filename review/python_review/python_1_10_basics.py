@@ -85,4 +85,37 @@ print('****************12月22日*******'.count('*'))
 '''
 
 #字符串的格式化和用户输入
+'''
+info = '我叫%-5s，年龄是%5d'%('张三',24)
+print(info)
 
+print('%f'%3.1415926)
+print('%.3f'%3.1415926)
+
+print('my name is {:6},I am {:06} years old'.format('杜梦豪',25))
+print('my name is {:>6},I am {:6} years old'.format('杜梦豪',25))
+print('my name is {:<6},I am {:06} years old'.format('杜梦豪',25))
+print('my name is {:^6},I am {:06} years old'.format('杜梦豪',25))
+
+print('my name is {1},I am {0} years old'.format('杜梦豪',25))
+
+name='杜梦豪'
+age = 25
+info1=f'我叫{name},年龄{age}'
+print(info1)
+'''
+#循环语句与注释
+i=1
+sumdata = 0
+# while i<=10:
+#     print(i)
+#     i = i+1
+#
+# while i<=100:
+#     sumdata = sumdata+i
+#     i = i+1
+# print(sumdata)
+
+for i in range(1,101):
+    sumdata=sumdata+i
+print(sumdata)
