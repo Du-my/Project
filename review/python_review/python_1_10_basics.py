@@ -105,8 +105,9 @@ info1=f'我叫{name},年龄{age}'
 print(info1)
 '''
 #循环语句与注释
-i=1
-sumdata = 0
+'''
+# i=1
+# sumdata = 0
 # while i<=10:
 #     print(i)
 #     i = i+1
@@ -116,6 +117,44 @@ sumdata = 0
 #     i = i+1
 # print(sumdata)
 
-for i in range(1,101):
-    sumdata=sumdata+i
-print(sumdata)
+# for i in range(1,101):
+#     sumdata=sumdata+i
+# print(sumdata)
+
+# list1 = ['张飞','关羽','刘备','赵云','黄忠']
+# for i in list1:
+#     print(i)
+
+# def get_sum(start,end,slep):
+#     sumdata = 0
+#     i=start
+#     while i<=end:
+#         sumdata = sumdata+i
+#         i=i+slep
+#     return sumdata
+# print(get_sum(1,100,2))
+'''
+#文件的读取与写入
+
+file1= open('d:/note1.txt','r+')
+# print(str(file1.tell()))#返回当前指针所在位置
+# print(file1.read())
+# file1.seek(3)#光标偏移多少位，第二个参数默认为0，1表示从开头，2从末尾，12只有rb模式才能用
+# print(str(file1.tell()))#返回当前指针所在位置
+# file1.seek(0)
+# # print(file1.readlines())
+# print(file1.readline())
+file1.write('我这一生漂泊四海看淡今朝')
+file1.write('莫听穿林打叶生')
+print(file1.read())
+file1.close()
+
+
+
+
+
+
+
+
+
+
