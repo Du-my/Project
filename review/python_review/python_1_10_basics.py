@@ -135,7 +135,7 @@ print(info1)
 # print(get_sum(1,100,2))
 '''
 #文件的读取与写入
-
+'''
 file1= open('d:/note1.txt','r+')
 # print(str(file1.tell()))#返回当前指针所在位置
 # print(file1.read())
@@ -148,8 +148,14 @@ file1.write('我这一生漂泊四海看淡今朝')
 file1.write('莫听穿林打叶生')
 print(file1.read())
 file1.close()
+'''
 
-
+#循环嵌套和算法
+list1= ['张三','李四','王五']
+list2= ['苹果','香蕉','西瓜']
+for i in range(0,3):
+    for j in range(0,3):
+        print(list1[1]+'吃'+list2[j])
 
 
 
